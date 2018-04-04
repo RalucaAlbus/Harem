@@ -1,0 +1,29 @@
+Login
+git config --global user.email "ralu_georgi@yahoo.com"
+git config --global user.name "RalucaAlbus"
+
+cd C:/Users/Raluca/Desktop/Facultate/Anul3/Semestrul2/ISS
+
+Pentru a afisa continutul folderului in care ne aflam
+ls -la 
+
+Clonam folderul
+$ git clone https://github.com/RalucaAlbus/Harem.git
+Linkul il luam de pe github->code->clone or download
+
+Ce avem local fata de ce avem sursa
+git status
+
+Adaugare tot
+git add .
+Adaugare anumit folder
+git add "numefolder"
+
+Commit
+git commit -m "first txt file added"
+
+Push
+git push origin master
+ 
+Ultimele modificari
+git log
